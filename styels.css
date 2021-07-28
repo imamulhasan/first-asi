@@ -75,33 +75,24 @@ h1 {
 }
 .food-area {
   display: flex;
-  padding-top: 100px;
-  padding: 10px;
+  justify-content:around;
 }
 .food {
-  width: 25%;
-  float: left;
-  padding-left: 2%;
-  margin-left: 5%;
+ padding:10px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 10px;
 }
 .food img {
   width: 100%;
 }
-.food-img {
-  padding-top: 10px;
-  padding-right: 10px;
-}
+
 .social-media {
   display: flex;
+  justify-content:around;
   box-shadow: 10px 10px 10px gray;
   border-radius: 10px;
-  padding-bottom: 50px;
 }
-.social {
-  padding-left: 200px;
-}
+
 .last {
   background-color: black;
   padding-top: 50px;
